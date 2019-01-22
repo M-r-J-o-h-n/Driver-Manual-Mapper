@@ -4,7 +4,7 @@
 Driver Manual Mapper using capcom.sys driver exploit.
 This Mapper maps your custom driver on already legit driver's executable section.
 You need two drivers, one that will be overwritten, and the other that will be mapped.
-If your overwritten driver's execuatble section doesn't have enough space, mapping will fail.
+If your to be overwritten driver's execuatble section doesn't have enough space, mapping will fail.
 Also RWX section has priority over RX section.
 
 Because Kerenel doesn't provide any fuction to change page protection of kerenl space memory.
