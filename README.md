@@ -23,4 +23,4 @@ So Good luck to find a driver which has enough RWX section.
 
 Credits to 
 can1357/ThePerfectInjector
-not-wlan/drvmap
+and not-wlan/drvmap
