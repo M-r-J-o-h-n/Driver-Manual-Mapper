@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Capcom">
+      <UniqueIdentifier>{9fcfe3c2-4403-496a-be37-a6f85494b6e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CapcomDriverManualMapper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SanityChecker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Capcom\CapcomLoader.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\CapcomResource.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\DriverLoader.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\KernelHelper.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\KernelRoutines.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\LockedMemory.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\NtDefines.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CapcomDriverManualMapper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SanityChecker.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Capcom\MemoryController.h">
+      <Filter>Capcom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
